@@ -1,0 +1,108 @@
+/* Fonttien tuonti */
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Layout */
+html, body
+{
+	height: 99%; /* Jos korkeus on 100%, ikkuna venyy */
+    background-color: #F01C23;
+    color: black;
+    font-family: 'Titillium Web', sans-serif;
+}
+main
+{
+    height: 100%;
+	width: 60vw;
+	background-color: white;
+    margin: auto; /* Main div keskittyy tämän avulla */
+}
+header
+{
+    width: 100%;
+    text-align: center;
+	background-color: #03A388;
+    padding: 5px; /* Otsikkotekstin ympärille tulee tilaa */
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 25px;
+    border-style: solid;
+    border-color: white;
+}
+nav
+{
+    width: 100%;
+    text-align: center;
+	background-color: #F01C23;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Dela Gothic One', cursive;
+    border-style: solid;
+    border-color: white;
+}
+section
+{
+    text-align: center;
+    background-color: white;
+    padding-right: 30px; /* Divin sisäreunoille jää vähän tilaa */
+    padding-bottom: 10px;
+    padding-left: 30px;
+	padding-top: 30px;
+}
+
+/* Muut muotoilut */
+
+/* Pääasettelut */
+h1
+{
+    text-shadow: 0 0 10px black;
+	color: white;
+}
+h2,h3
+{
+    font-family: 'Dela Gothic One', cursive;
+}
+a
+{
+    color: #F01C23;
+	text-decoration: none;
+}
+a:hover
+{
+    color: #03A388;
+}
+.logopicture
+{
+    max-width: 10vw;
+}
+.picture
+{
+  max-width: 25vw;
+}
+/* Menupalkin linkit */
+nav a 
+{
+    border-radius: 5px; /* Pyöristää kulmat */
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	display: inline-block;
+    width: 20%; /* Linkkiboksit saman kokoiset */
+    font-size: 1vw; /* Teksti skaalautuu */
+    
+}
+nav a:hover
+{
+    color: #11F0CA;
+    background-color: #03A388;
+}
+nav h3
+{
+    font-family: 'Bangers', cursive;
+    font-size: 25px;
+    margin: 5px;
+}

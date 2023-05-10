@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RESTful Heads</title>
+    <meta charset="UTF-8"> 
+    <meta name="description" content="RESTful Heads">
+    <meta name="author" content="Taavi Pajari">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<main>
+    <header>
+        <h1>RESTful Heads</h1>
+    </header>
+    <nav>
+        <a href="index.html">Etusivu</a>
+        <a href="varaa.html">Varaus</a>
+        <a href="yhteystiedot.html">Yhteystiedot</a>
+    </nav>
+<section>
+    <img class="logopicture" src="images/hair-g518b377c5_1280.png" alt="Logo">
+    <p>
+        Jos haluat hakea jo varattuja aikoja, klikkaa <a href="varaus_haku.html">tästä</a>
+        <h3>Varaa aika</h3>
+        <form action="/reservations" method="POST" name="form" id="form">
+              <label for="date">Päivämäärä</label>
+              <input type="date" id="date" name="date">
+              <br><br>
+              <label>Nimi</label>
+              <input type="text" id ="name" name="name">
+              <br><br>
+              <label>Sähköposti</label>
+              <input type="text" name="email">
+              <br><br>
+              <label>Puhelinnumero</label>
+              <input type="text" name="number">
+              <br><br>
+              <input type ="submit"/>
+              <input type ="reset"/>
+          </form>
+	</p>
+</section>
+</main>
+</body>
+</html> 
